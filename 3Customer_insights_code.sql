@@ -1,3 +1,5 @@
+/*Creating Tables and Rows*/
+
 create table country
 (country_id int primary key,
  country_name varchar(50),
@@ -87,6 +89,7 @@ values
 (8, 3),
 (8, 3);
 
+/*QUESTIONS*/
 
 /*1. What are the names of all the countries in the country table?*/
 select country_name
@@ -151,24 +154,6 @@ group by c.country_name
 limit 1;
 
 /*10. What is the average age of customers who made orders in the 'vitamins' product category?*/
-
-select round(avg(c.age),1)
-from customers c
-where c.c_id in ( select o.c_id
-				  from orders o
-                  where c.c_id=o.c_id
-                  and
-                  o.o_id in ( select b.o_id
-                              from basket b
-                              where b.o_id=o.o_id
-                              and
-                              b.p_id in (select p.p_id
-										 from product p  
-                                         where p.p_id=b.p_id
-                                         and p.category='vitamins')
-                                  )
-							
-                );
 
 /*Subquery*/
 SELECT round(AVG(age),1) AS average_age
