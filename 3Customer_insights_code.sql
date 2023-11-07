@@ -124,7 +124,7 @@ order by Revenue_For_each_Product desc;
 
 /*6. What is the average price of products in the 'food' category?*/
 
-select category,round(avg(price),2)
+select category,round(avg(price),2) as Avergae_Price_Food
 from product
 where category='food'
 ;
