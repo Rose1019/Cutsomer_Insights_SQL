@@ -124,10 +124,9 @@ order by Revenue_For_each_Product desc;
 
 /*6. What is the average price of products in the 'food' category?*/
 
-select category,round(avg(price),2) as Avergae_Price_Food
+select category,round(avg(price),2) as Average_Price_Food
 from product
-where category='food'
-;
+where category='food';
 
 /*7. How many orders were made in each sales channel (sales_channel column) in the orders table?*/
 
