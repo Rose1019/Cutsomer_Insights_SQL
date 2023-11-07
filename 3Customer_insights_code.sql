@@ -102,10 +102,6 @@ from customers;
 
 /*3. What is the average age of customers who can receive marketing emails (can_email is set to 'yes')?*/
 
-select age,can_email
-from customers
-where can_email='yes';
-
 select round(avg(age),0)
 from customers
 where can_email='yes';
