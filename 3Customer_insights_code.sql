@@ -92,12 +92,12 @@ values
 /*QUESTIONS*/
 
 /*1. What are the names of all the countries in the country table?*/
-select country_name
+select distinct(country_name)
 from country;
 
 /*2. What is the total number of customers in the customers table?*/
 
-select count(*) as Number_of_customers
+select distinct(count(*)) as Number_of_customers
 from customers;
 
 /*3. What is the average age of customers who can receive marketing emails (can_email is set to 'yes')?*/
