@@ -32,7 +32,7 @@ Listed all the unique Country names from Country table and they are : UK,USA,Chi
 
                             Concept learned
 1.DISTINCT()
-
+ 
 ```
 -----------------------------------------------------------------------------------------------------
 
