@@ -200,7 +200,7 @@ WHERE c_id IN (
 
 ```
 			Output
-The country with the highest number of orders, totaling 5, is the United Kingdom (UK).
+The average age of customers who made orders in the 'vitamins' product category is 32.5.
 
                   Concept learned
 1.SUBQUERY
