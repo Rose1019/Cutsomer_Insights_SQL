@@ -41,7 +41,7 @@ Sharing the link to [SteelData-SQL Challenge 3](https://codebasics.io/)
 
 7. Employed **DISTINCT()** to determine the total number of customers and retrieve the names of all countries.   
 
-## Result:
+## Result: 
 Generated comprehensive data insights facilitating targeted marketing strategies for the team. Examples include determining average customer age, identifying top-ordering countries, understanding customer preferences in different product categories, and segmenting customers based on age for more effective marketing outreach.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
